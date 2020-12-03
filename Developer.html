@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiu | Covid-19 Data Indonesia</title>
+		<link rel="stylesheet" type="text/css" href="developer.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link href="dist/aos.css" rel="stylesheet">
+		<script src="dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#myInputs").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTables tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<body>
+<script>
+  AOS.init();
+</script>
+	<div class="nav"  data-aos="fade-down" style="transition-delay: 1s; transition: 2s;">
+		<div class="logo"><p>Tiu.</p></div>
+		<div class="menu">
+			<ul>
+				<a href="developer.html">
+				<li><i class="fas fa-code"></i> DEVELOPER</li>
+				</a>
+				<a href="faq.html">
+				<li><i class="fas fa-question"></i>  FAQ</li>
+				</a>
+				<a href="edukasi.html">
+				<li><i class="fas fa-book"></i>  EDUKASI</li>
+				</a>
+				<a href="beranda.html">
+				<li><i class="fa fa-home"></i>  BERANDA</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+
+<div class="atas" data-aos="flip-left" style="transition-delay: 2s;" >
+	<p>Tiu.</p>
+	<p class="kecil">Website-Team</p>
+
+</div>
+<div class="atas2"  >
+	<div class="atas2-1" data-aos="fade-right" style="transition-delay: 3.5s;">
+		<div class="atas2-1-1"></div>
+		<div class="atas2-1-2">
+			<h1>Yogi Maha Putra </h1>
+			<h3>Web Developer</h3>
+		</div>
+	</div>	
+	<div class="atas2-1"  data-aos="fade-right" style="transition-delay: 2.5s;">
+		<div class="atas2-1-1b"></div>
+		<div class="atas2-1-2">
+			<h1>M. A Bintang Sakti </h1>
+			<h3>User Infterface (UI)</h3>
+		</div>
+	</div>	
+	<div class="atas2-1" data-aos="fade-right" style="transition-delay: 1s;">
+		<div class="atas2-1-1c"></div>
+		<div class="atas2-1-2">
+			<h1>Sayyidah S </h1>
+			<h3>User Infterface (UI)</h3>
+		</div>
+	</div>
+</div>
+<div class="atas2">
+	<div class="atas2-1" data-aos="fade-right" style="transition-delay: 6.5s;">
+		<div class="atas2-1-1d" ></div>
+		<div class="atas2-1-2">
+			<h1>Dea Salsabilla </h1>
+			<h3>User Experience (UX)</h3>
+		</div>
+	</div>	
+	<div class="atas2-1" data-aos="fade-right" style="transition-delay: 5.5s;">
+		<div class="atas2-1-1e"></div>
+		<div class="atas2-1-2">
+			<h1>Irsal Hamdi </h1>
+			<h3>User Experience (UX)</h3>
+		</div>
+	</div>	
+	<div class="atas2-1" data-aos="fade-right" style="transition-delay: 4s;">
+		<div class="atas2-1-1f"></div>
+		<div class="atas2-1-2">
+			<h1>Anggi Pratama S</h1>
+			<h3>User Experience (UX)</h3>
+		</div>
+	</div>
+</div>
+
+<div class="atas3" data-aos="flip-left" style="transition-delay: 0.5s;">
+		<p>Sponsored by</p>
+</div>
+<div class="atas4">
+	<div class="atas4-1" data-aos="fade-left" style="transition-delay: 1s;">
+		<a href="https://covid19.keponet.com/" target="_blank">
+		<img src="keponet.png" id="gambar1">
+			
+		</a>
+	</div>
+	<div class="atas4-1" data-aos="fade-left" style="transition-delay: 2.5s;">
+		<a href="https://www.halodoc.com/?gclid=CjwKCAjwwab7BRBAEiwAapqpTKpcUslgLbHcHMndr66I6YR7cyu8EKTGv7ziqnhvowC4mCeeMu8TKBoC-I8QAvD_BwE" target="_blank">
+		<img src="halodoc.png" id="gambar2">
+		</a>
+	</div>
+	<div class="atas4-1" data-aos="fade-left" style="transition-delay: 3.5s;">
+		<a href="https://www.kemkes.go.id/" target="_blank">
+		<img src="kemenkes.png" id="gambar3">
+		</a>
+	</div>
+</div>
+<main>
+</main>
+
+</body>
+
+<footer>
+
+	<div class="akhir2">
+		<p>© Tiu - Data Covid19 Indonesia 2020.</p>
+	</div>
+
+</footer>
+
+
+
+
+</html>

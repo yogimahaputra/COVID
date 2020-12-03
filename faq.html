@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiu | Covid-19 Data Indonesia</title>
+		<link rel="stylesheet" type="text/css" href="faq.css">
+		<link rel="stylesheet" type="text/css" href="collapse.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link href="dist/aos.css" rel="stylesheet">
+		<script src="dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myDIV *").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<body>
+<script>
+  AOS.init();
+</script>
+	<div class="nav"  data-aos="fade-out" style="transition-delay: 1s; transition: 2s;">
+		<div class="logo"><p>Tiu.</p></div>
+		<div class="menu">
+			<ul>
+        <a href="developer.html">
+				<li><i class="fas fa-code"></i> DEVELOPER</li>
+        </a>
+        <a href="faq.html">
+				<li><i class="fas fa-question"></i>  FAQ</li>
+        </a>
+        <a href="edukasi.html">
+				<li><i class="fas fa-book"></i>  EDUKASI</li>
+        </a>
+        <a href="beranda.html">
+				<li><i class="fa fa-home"></i>  BERANDA</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+
+<div class="tengah">
+	<div class="tengah-1">
+		 <div class="swiper-container" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+    style="transition-delay: 0.3s; " >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+      	<div class="ras1" data-aos="fade-down" style="transition-delay: 1.5s;"><p><b><big>Pertanyaan yang sering ditanyakan mengenai Covid-19.</big></b></p></div>
+      	<div class="ras2"  data-aos="fade-down" style="transition-delay: 2s;">
+          <p><b>Informasi dasar Covid-19</b></p>
+            <tbody id="myTable">
+          <button type="button" class="collapsible">Apa itu Covid-19 ?</button>
+          <div class="content" >
+            <p>Coronavirus Disease 2019 atau Covid-19 adalah penyakit baru yang dapat menyebabkan gangguan pernapasan dan radang paru. Penyakit ini disebabkan oleh infeksi Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2).</p>
+          </div>
+          <button type="button" class="collapsible">Apakah gejala Covid-19 ?</button>
+          <div class="content">
+            <p> Gejala klinis yang muncul beragam, mulai dari seperti gejala flu biasa (batuk, pilek, nyeri tenggorok, nyeri otot, nyeri kepala) sampai yang berkomplikasi berat (pneumonia atau sepsis) atau bahkan tidak bergejala sama sekali.</p>
+          </div>
+          <button type="button" class="collapsible">Seberapa bahaya Covid-19 ini ?</button>
+          <div class="content">
+            <p>orang-orang dengan kondisi medis yang sudah ada sebelumnya (seperti diabetes, tekanan darah tinggi dan penyakit jantung), mereka biasanya lebih rentan untuk gejala yang lebih parah. Orang yang mengalami demam, batuk, dan sulit bernapas harus segera mendapatkan pertolongan medis.</p>
+          </div>
+  
+          <p><b>Penularan Covid-19</b></p>
+            <tbody id="myTable">
+          <button type="button" class="collapsible">Bagaimana manusia bisa terinfeksi Covid-19 ?</button>
+          <div class="content" >
+            <p>Sampai saat ini, para ahli masih terus melakukan penyelidikan untuk menentukan sumber virus, jenis paparan, dan cara penularannya. Tetap pantau sumber informasi yang akurat dan resmi mengenai perkembangan penyakit ini.</p>
+          </div>
+          <button type="button" class="collapsible">Siapa saja yang berisko terinfeksi Covid-19 ?</button>
+          <div class="content">
+            <p>Orang yang tinggal atau bepergian di daerah di mana virus COVID-19 bersirkulasi sangat mungkin berisiko terinfeksi. Petugas kesehatan yang merawat pasien yang terinfeksi COVID-19 berisiko lebih tinggi dan harus konsisten melindungi diri mereka sendiri dengan prosedur pencegahan dan pengendalian infeksi yang tepat.</p>
+          </div>
+          <button type="button" class="collapsible">Apakah sudah ada vaksin atau obat untuk Covid-19 ?</button>
+          <div class="content">
+            <p>Vaksin untuk mencegah infeksi COVID-19 sedang dalam tahap pengembangan/uji coba.</p>
+          </div>
+  
+          <p><b>Mencegah penularan Covid-19</b></p>
+            <tbody id="myTable">
+          <button type="button" class="collapsible">Bagaimana mengantisipasi penularan Covid-19 ?</button>
+          <div class="content" >
+            <p>Hingga saat ini, belum ada vaksin untuk mencegah penularan Covid-19 tetapi Anda dapat melakukan tindakan pencegahan agar tidak tertular. dengan cara menjaga kesehatan, menggunakan masker, menjaga jarak, mencuci tangan, hindari kontak, dll.</p>
+          </div>
+          <button type="button" class="collapsible">Apakah saya harus menggunakan masker ?</button>
+          <div class="content">
+            <p>Iya. Anda wajib untuk selalu menggunakan masker saat berkegiatan di luar rumah. Masker yang digunakan dapat berupa masker kain (berlapis 3).</p>
+          </div>
+          <button type="button" class="collapsible">Apakah antibiotik efektif dalam mencegah Covid-19 ?</button>
+          <div class="content">
+            <p>Tidak. Antibiotik hanya bekerja untuk melawan bakteri, bukan virus. Karena COVID-19 disebabkan oleh virus, maka antibiotik tidak bisa digunakan sebagai sarana pencegahan atau pengobatan. </p>
+          </div>
+  
+          <p><b>Kasus Covid-19</b></p>
+            <tbody id="myTable">
+          <button type="button" class="collapsible">Berapa banyak orang yang terinfeksi Covid-19 ?</button>
+          <div class="content" >
+            <p>WHO secara ketat memantau situasi terkini dan secara teratur menerbitkan informasi tentang penyakit ini. Informasi lebih lanjut mengenai penyakit ini dapat dilihat melalui: https://www.who.int/emergencies/diseases/novel-coronavirus-2019 atau https://infeksiemerging.kemkes.go.id/category/situasi-infeksi-emerging/info-corona-virus</p>
+          </div>
+          <button type="button" class="collapsible">Apakah di indonesia sudah ditemukan kasus ?</button>
+          <div class="content">
+            <p>Anda dapat melihat data terbaru terkait kasus Covid-19 di Indonesia pada portal Kementerian Kesehatan Republik Indonesia di https://infeksiemerging.kemkes.go.id/ atau pada menu Data di corona.jakarta.go.id/data untuk data kasus di DKI Jakarta.</p>
+          </div>
+          <button type="button" class="collapsible">Bagaimana situasi terkini diindonesia untuk Covid-19 ?</button>
+          <div class="content">
+            <p>Situasi perkembangan penyakit COVID-19 di Indonesia dapat dipantau melalui laman website https://infeksiemerging.kemkes.go.id atau melalui https://corona.jakarta.go.id/data untuk memantau perkembangan kasus di Jakarta.</p>
+          </div>
+  
+
+
+      		
+      	</div>
+      </div>
+      <div class="swiper-slide">
+        <div class="ras3"><b><big>Ajukan pertanyaan tentang Covid-19</big></b></div>
+        <div class="ras4">
+          
+          <form action="simpan.php" method="GET">   
+
+          <input type="" name="nama" placeholder="Nama Panggilan">
+          <input type="" name="email" placeholder="Email">
+          <textarea name="isi" placeholder="Pertanyaan"></textarea>
+          <a href="" class="sss"><input type="submit" class="tombol" value="Kirim Pertanyaan" onclick="myFunction()"></a>
+        </form>
+        </div>
+      </div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination" ></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+	</div>
+	<div class="tengah-1" data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+    style="transition-delay: 1.2s; "  >
+    <div class="tengah-1-1" >
+      <h1><b>Informasi Penyuluhan &<br>Penanganan Covid19</b></h1>
+      <p>Cek daftar RS rujukan di <a href="https://j.mp/rs-rujukan-corona-halodoc" target="_blank">https://j.mp/rs-rujukan-corona-halodoc</a> Cek artikel ini untuk tata cara mengunjungi RS <a href="https://j.mp/panduan-ke-rs" target="_blank">https://j.mp/panduan-ke-rs.</a></p>
+      <p>Ayo bantu mencegah penyebaran COVID-19 bersama Halodoc dengan cara Social Distancing di link ini: <a href="https://j.mp/hd-social-distancing" target="_blank">https://j.mp/hd-social-distancing.</a></p>
+      <p>Hubungi BOT Whatsapp Covid19 untuk info lainnya</p>
+    </div>
+    <div class="tengah-1-2"  data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500"
+    style="transition-delay: 1.7s; "><a href="https://api.whatsapp.com/send?phone=6281133399000&text=Covid19" target="_blank">
+      <div class="tengah-1-2a">
+        <p>Whatsapp Covid-19</p>
+      </div>
+      <div class="tengah-1-2b">
+        <i class="fa fa-whatsapp"></i>
+      </div>
+    </a></div>
+  </div>
+
+
+
+
+
+</div>
+<script>
+function myFunction() {
+  alert("Pertanyaan anda berhasil diterima.");
+}
+</script>
+
+  <script src="swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+
+</html>

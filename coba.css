@@ -1,0 +1,30 @@
+*{
+	font-family: 'Qucicksand';
+}
+
+.wrapper{
+	width: 800%;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	opacity: 1;
+	display: block;
+	width: 10%;
+	height: auto;
+	transition: .5 ease;
+}
+
+.content{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%.-50%);
+	-ms-transform: translate(-50%.-50%);
+	text-transform: uppercase;
+	font-size: 60px;
+	color: black;
+	white-space: nowrap;
+	overflow: hidden;
+}

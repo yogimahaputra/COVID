@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiu | Covid-19 Data Indonesia</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link href="dist/aos.css" rel="stylesheet">
+		<script src="dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#myInputs").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTables tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<body>
+<script>
+  AOS.init();
+</script>
+<div id="atas" data-aos="fade-down" style="transition-delay: 1s; transition: 2s;">
+		
+	<div class="nav">
+		<div class="logo"><p>Tiu.</p></div>
+		<div class="menu">
+			<ul>
+				<a href="developer.html">
+				<li><i class="fas fa-code"></i> DEVELOPER</li>
+				</a>
+				<a href="faq.html">
+				<li><i class="fas fa-question"></i>  FAQ</li>
+				</a>
+				<a href="edukasi.html">
+				<li><i class="fas fa-book"></i>  EDUKASI</li>
+				</a>
+		        <a href="beranda.html">
+				<li><i class="fa fa-home"></i>  BERANDA</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+			<div class="nav2">
+				<div class="dalamnav2-1" data-aos="fade-up" style="transition-delay: 0.5s; ">
+					<p>Website Data Real-Time Covid-19</p>
+					<h1 ><img src="indonesia.png" class="indo"> INDONESIA</h1>
+				</div>				
+				<div class="dalamnav2-2">
+					<div class="dalam3" >
+						<div class="dalam3-1"  data-aos="zoom-in" style="transition-delay: 1.5s; ">
+							<div class="dalam3-1-2">
+								<h1>300.000</h1>
+								<p>Sembuh</p>
+							</div>
+							<div class="dalam3-1-1" >
+								<h1><i class="fas fa-heartbeat"></i></h1>
+							</div>
+						</div>						
+						<div class="dalam3-1" data-aos="zoom-in" style="transition-delay: 2s; ">
+							<div class="dalam3-1-2">
+								<h1>300.000</h1>
+								<p>Meninggal</p>
+							</div>
+							<div class="dalam3-1-1">
+								<h1 style="margin-top: 12px; margin-left: 27px;"><i class="fas fa-skull-crossbones" ></i> </h1>
+							</div>
+						</div>						
+						<div class="dalam3-1" data-aos="zoom-in" style="transition-delay: 2.5s; ">
+							<div class="dalam3-1-2">
+								<h1>300.000</h1>
+								<p>Positif</p>
+							</div>
+							<div class="dalam3-1-1">
+								<h1><i class="fas fa-virus"></i></h1>
+							</div>
+						</div>
+					</div>
+					<div class="dalam4"   data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" style="transition-delay: 3.5s; ">
+
+						<a href="#provinsi" >
+							
+						<div class="dalam4-1" >
+							<h1>Lihat data provinsi</h1>
+						</div>
+						</a>							
+						<a href="#rujukan" >
+							
+						<div class="dalam4-1" >
+							<h1>RS Rujukan Covid-19</h1>
+						</div>
+						</a>						
+					</div>
+				</div>
+				<div class="dalamnav2-3" data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" style="transition-delay: 3.5s; "><p>#Cegahcorona dengan menjaga jarak dan selalu gunakan masker</p></div>				
+			</div>
+</div>
+
+<main id="provinsi" >
+	<div class="gelobal3"></div>
+	<div class="gelobal"   >
+		<div class="gelobal-1" >
+			<h1 data-aos="fade-in"
+    style="transition-delay: 0.5s; " >DATA <span>COVID-19</span> SECARA GLOBAL</h1>
+		</div>
+		<div class="gelobal2">
+			<p data-aos="fade-in"
+    style="transition-delay: 1s; "><b>6.000.000</b> Positif, <b>6.000.000</b> Kematian,<b> 6.000.000</b> Sembuh</p>
+		</div>
+	</div>
+
+	<div class="tabel" >
+		<div class="tabel1" data-aos="fade-left"
+    style="transition-delay: 1.5s; " >
+			<div class="tabel1-1">
+				<div class="tabel1-1-1">
+					<div class="tabel1-1-1a">
+						<input id="myInput" type="text" placeholder="Cari disini..">
+					</div>
+					<div class="tabel1-1-1a">
+						<p><i class="fa fa-search"></i></p>
+					</div>
+				</div>
+				<div class="tabel1-1-1">
+				<p>Penyebaran Covid-19 berdasarkan <b>Provinsi</b> </p>
+
+				</div>
+			</div>			
+			<div class="tabel1-2" >
+				<table id="customers" >
+				  <thead>
+				  <tr>
+				    <th>Provinsi</th>
+				    <th>Positif</th>
+				    <th>Meninggal</th>
+				    <th>Sembuh</th>
+				  </tr>
+				  </thead>
+				  <tbody id="myTable">
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA BARAT</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SUMATERA SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>SULAWESI SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+				  <tr>
+				    <td>KALIMANTAN SELATAN</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				    <td>300.000</td>
+				  </tr>				 
+
+				  </tbody>
+				</table>
+			</div>
+			<div class="tabel1-1">
+				<div class="tabel1-1-1">
+					<div class="tabel1-1-1ae">
+						<a href="https://wa.me/?text=Ayo%20lihat%20data%20Covid19%20di%20provinsi%20kamu%0D%0A%0D%0AMelalui+Website+https%3A%2F%2Fberanda.html%0D%0A%0D%0AJaga+kesehatan+serta+kebersihan+dengan+mencuci+tangan+setelah+berkegiatan+dan+gunakan+masker+ketika+berada+diluar+ruangan."><i class="fa fa-whatsapp" style="font-size:36px;"></i></a>
+					</div>
+					<div class="tabel1-1-1ar">
+						<p>Share to : </p>
+					</div>
+				</div>
+				<div class="tabel1-1-1b">
+				<p>*API data RS Rujukan by <b>https://covid19.keponet.com/</b> </p>
+
+				</div>
+			</div>	
+		</div>
+	</div>	
+
+
+
+
+
+
+
+
+
+
+
+	<div class="gelobal3" id="rujukan"></div>
+	<div class="gelobal"   >
+		<div class="gelobal-1" >
+			<h1 data-aos="fade-in"
+    style="transition-delay: 0.5s; " >MENCARI <span>RUMAH SAKIT</span> RUJUKAN COVID19 ?</h1>
+		</div>
+		<div class="gelobal2">
+			<p data-aos="fade-in" style="transition-delay: 1s; ">Cari dengan menggunakan nama rumah sakit , kota ataupun alamat</p>
+		</div>
+	</div>
+
+	<div class="tabel2" >
+		<div class="tabel12" data-aos="fade-left"
+    style="transition-delay: 1.5s; " >
+			<div class="tabel1-1">
+				<div class="tabel1-1-1">
+					<div class="tabel1-1-1a">
+						<input id="myInputs" type="text" placeholder="Cari disini..">
+					</div>
+					<div class="tabel1-1-1a">
+						<p><i class="fa fa-search"></i></p>
+					</div>
+				</div>
+				<div class="tabel1-1-1">
+				<p>Daftar <b>Rumah sakit</b> rujukan Covid-19  </p>
+
+				</div>
+			</div>			
+			<div class="tabel1-22" >
+				<table id="customers" >
+				  <thead>
+				  <tr>
+				    <th>Nama RS</th>
+				    <th>Kota</th>
+				    <th>Provinsi</th>
+				    <th>Telp</th>
+				    <th>Alamat</th>
+				  </tr>
+				  </thead>
+				  <tbody id="myTables">
+				  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>Palembang</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>					  <tr>
+				    <td>RS PENYAKIT INFEKSI PROF. DR. SULIANTI SAROSO</td>
+				    <td>JAKARTA UTARA, DKI JAKARTA</td>
+				    <td>JAKARTA</td>
+				    <td>(021) 6506559</td>
+				    <td>JL. BARU SUNTER PERMAI RAYA JAKARTA UTARA</td>
+				  </tr>				 
+
+				  </tbody>
+				</table>
+			</div>
+			<div class="tabel1-1">
+				<div class="tabel1-1-1">
+					<div class="tabel1-1-1ae">
+						<a href="https://wa.me/?text=Ayo%20lihat%20data%20Rumah%20Sakit%20Rujukan%20di%20provinsi%20kamu%0D%0A%0D%0AMelalui+Website+https%3A%2F%2Fberanda.html%0D%0A%0D%0AJaga+kesehatan+serta+kebersihan+dengan+mencuci+tangan+setelah+berkegiatan+dan+gunakan+masker+ketika+berada+diluar+ruangan."><i class="fa fa-whatsapp" style="font-size:36px;"></i></a>
+					</div>
+					<div class="tabel1-1-1ar">
+						<p>Share to : </p>
+					</div>
+				</div>
+				<div class="tabel1-1-1b">
+				<p>*API data provinsi by <b>https://covid19.keponet.com/</b> </p>
+
+				</div>
+			</div>	
+		</div>
+	</div>
+<div class="bawahs">
+	<div class="bawahs-1s" data-aos="fade-left"
+    style="transition-delay: 0.5s; ">
+    	<div class="bawahs-1-1">
+			<div class="bawahs-1-1a">
+				<p>Cari tahu pertanyaan yang sering muncul mengenai Covid-19<br>dari sumber yang terpercaya.</p>
+			</div>
+			<a href="">
+			<div class="bawahs-1-1b" ><b>Lihat FAQ</b></div>
+			</a>
+		</div>
+		<div class="bawahs-1-1">
+			<img src="faq.png">
+		</div>
+    </div>
+	<div class="bawahs-1" class="dalamnav2-3" data-aos="fade-left"
+    style="transition-delay: 1.5s; ">
+		<div class="bawahs-1-1">
+			<div class="bawahs-1-1a">
+				<p>Ketahui gejala, pencegahan, penanganan serta pengetahuan terhadap covid19.<br><small><i>sumber : <a href="https://www.alodokter.com/ketahui-cara-untuk-mencegah-penularan-virus-corona">alodokter.com</a></i></small></p>
+
+			</div>
+			<div class="bawahs-1-1b" >
+				<a href="edukasi.html">
+				<b>Lihat Edukasi</b></div>
+				</a>
+		</div>
+		<div class="bawahs-1-1">
+			<img src="dokter.png">
+		</div>
+	</div>
+</div>
+
+
+</main>
+
+</body>
+
+<footer>
+
+	<div class="akhir2">
+		<p>© Tiu - Data Covid19 Indonesia 2020.</p>
+	</div>
+
+</footer>
+
+
+
+
+</html>

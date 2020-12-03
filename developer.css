@@ -1,0 +1,453 @@
+*{
+	font-family: "Quicksand";
+}
+
+
+body{
+	  background: #EEF2F7;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+
+li{
+	list-style-type: none;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+ span{
+		background-color: #518ffa;
+  -webkit-text-fill-color:  #518ffa; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+
+
+
+
+
+
+
+#atas{	
+	border:2px solid red;
+		background-color: #EEF2F7;
+		width: 100%;
+		height: 700px;
+ 		border-bottom-left-radius: 55px;
+ 		border-bottom-right-radius: 55px; 		
+}
+.nav{
+
+		background-color:  #518ffa;
+	height: 70px;
+	width: 1185px;
+	padding-left: 100px;
+	padding-right: 70px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	 		border-bottom-left-radius: 55px;
+ 		border-bottom-right-radius: 55px; 		
+}
+.logo{
+	font-size: 70px;
+	float: left;
+	color: white;
+	margin-top: -85px;
+}
+.menu{
+	margin-top: 7px;
+	float: right;
+}
+.menu  li{
+	margin-right: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	float: right;
+}
+
+.nav2{
+
+	height: 500px;
+	padding-right: 60px;
+}
+
+.nav21{
+	float: right;
+	width: 1120px;
+	height: 500px;
+	padding-right: 60px;
+}
+
+
+.awal{
+	margin-top:50px;
+	width: 100%;
+	height: 450px;
+}
+
+
+
+.awal-1{
+	float: right;
+	width: 49%;
+	height: 450px;
+}
+.awal-1 img{
+	transform: scale(0.9);
+	margin-left: -150px;
+	margin-top: -80px;
+}
+
+.awal-1 h1{
+	text-align:left;
+	font-size: 80px;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+.awal-1 h3{
+	text-align: right;
+	margin-right: 100px;
+}
+
+.yuk{
+	background-color: grey;
+	width: 20px;
+	height: 20px;
+	border-radius: 150px;
+}
+
+.awal2{
+	margin-top:200px;
+	width: 100%;
+	height: 450px;
+}
+
+.awal2 h1{
+	margin-top: 50px;
+	text-align: center;
+	font-size: 60px;
+}
+
+.awal2 p{
+	text-align: center;
+	font-size: 25px;
+	margin-right: 280px;
+	margin-left: 280px;
+}
+
+.awal2 small i{
+	text-align: center;
+	margin-left: 600px;
+}
+
+.awal3{
+	margin-top:-15px;
+	width: 100%;
+	height: 100px;
+}
+
+.awal3 h1{
+	font-size: 50px;
+	margin-left: 50px;
+}
+
+.awal4{
+	width: 100%;
+	height: 480px;
+}
+
+.awal4-1{
+	width: 100%;
+	height: 240px;
+	margin-top: 5px;
+}
+
+
+.awal4-1-1{
+	float: right;
+	width: 28%;
+	height: 240px;
+	margin-right: 40px;
+	border-radius: 30px;
+	background-color: white;
+		  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 5.8px 13.4px rgba(0, 0, 0, 0.086),
+  0 10px 10px rgba(0, 0, 0, 0.12)
+;
+
+}
+
+.awal4-1-1-1{
+	float: right;
+	height: 100%;
+	width:50%;
+}
+.awal4-1-1-2{
+	float: right;
+	height: 150px;
+	width:150px;
+	border-radius: 200px;
+	margin-top: 40px;
+	margin-right: 15px;
+	background-color: grey;
+}
+
+.awal4-1-1-2 img{
+	transform: scale(0.7);
+	margin-left: -90px;
+	margin-top: -50px;
+}
+
+.awal4-1-1-1 p{
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+
+
+
+
+
+main{
+	width: 100%;
+	height: 60px;
+	  background: #EEF2F7;
+	  background-size: 110%;
+}
+
+.atas{
+	border:2px solid #518ffa;
+	width: 80%;
+	height: 400px;
+	margin-left: 10%;
+	margin-top: 50px;
+	border-radius: 10px;
+margin-bottom: 80px;
+}
+.atas p{
+	font-size: 180px;
+	text-align: center;
+	margin-top: 8%;
+	color: #518ffa;
+}
+.atas .kecil{
+	font-size: 30px;
+	margin-top: -200px;
+	text-align: center;
+}
+
+
+
+
+.atas2{
+	width: 80%;
+	height: 300px;
+	margin-left: 11%;
+	margin-top: 20px;
+	border-radius: 10px;
+		display: flex;
+	justify-content: center;
+}
+
+.atas2-1{
+	background-color: white;
+	float: right;
+	width: 25%;
+	height: 300px;
+	border-radius: 10px;
+	margin-right: 20px;
+
+		  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 5.8px 13.4px rgba(0, 0, 0, 0.086),
+  0 10px 10px rgba(0, 0, 0, 0.12)
+;
+}
+
+.atas2-1-1{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+		background-image: url(yogi.jpeg);
+	background-size: 210px 210px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}.atas2-1-1b{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background-image: url(bintong.jpeg);
+	background-size: 490px 600px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}.atas2-1-1c{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background-image: url(umi2.jpeg);
+	background-size: 430px 400px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}
+.atas2-1-1d{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background-image: url(dea.jpeg);
+	background-size: 250px 260px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}
+.atas2-1-1e{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background-image: url(irsal.jpeg);
+	background-size: 200px 200px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}
+.atas2-1-1f{
+	margin-left: 15%;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	background-image: url(anggi.jpeg);
+	background-size: 200px 210px;
+	  background-position: center;
+	  background-repeat: no-repeat;
+}
+
+.atas2-1-2{
+	width: 100%;
+	height: 80px;
+	border-radius: 10px;
+}
+.atas2-1-2 h1{
+	display: flex;
+	justify-content: center;
+	color: #518ffa;
+	font-size: 25px;
+}
+.atas2-1-2 h3{
+	display: flex;
+	justify-content: center;
+	color: #518ffa;
+	font-size: 15px;
+	margin-top: -10px;
+}
+
+.atas3{
+	border:2px solid #518ffa;
+	width: 80%;
+	height: 100px;
+	margin-left: 10%;
+	margin-top: 50px;
+	border-radius: 10px;
+margin-bottom: 80px;
+margin-top: 90px;
+}
+
+.atas3 p{
+	font-size: 50px;
+	text-align: center;
+	color: #518ffa;
+	margin-top: 2%;
+}
+.atas3 .kecil{
+	font-size: 30px;
+	margin-top: -200px;
+	text-align: center;
+}
+
+
+.atas4{
+	width: 80%;
+	height: 300px;
+	margin-left: 10%;
+	margin-top: -30px;
+	border-radius: 10px;
+}
+
+.atas4-1{
+	margin-right: 20px;
+	float: right;
+	width: 30%;
+	height: 300px;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	left: 10%;
+}
+
+#gambar3 {
+	transform: scale(1.5);
+}#gambar2 {
+	transform: scale(0.4);
+	margin-top: -35px;
+}#gambar1 {
+	transform: scale(1.5);
+}
+
+
+
+footer{
+
+	background-color: #518ffa;
+	margin-top: 10px;
+	height: 100px;
+	width: 100%;
+	color: white;
+}
+
+.akhir2{
+	padding-top: 20px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

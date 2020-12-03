@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tiu | Covid-19 Data Indonesia</title>
+		<link rel="stylesheet" type="text/css" href="edukasi.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link href="dist/aos.css" rel="stylesheet">
+		<script src="dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#myInputs").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTables tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<body>
+<script>
+  AOS.init();
+</script>
+	<div class="nav"  data-aos="fade-out" style="transition-delay: 1s; transition: 2s;">
+		<div class="logo"><p>Tiu.</p></div>
+		<div class="menu">
+			<ul>
+				<a href="developer.html">
+				<li><i class="fas fa-code"></i> DEVELOPER</li>
+				</a>
+				<a href="faq.html">
+				<li><i class="fas fa-question"></i>  FAQ</li>
+				</a>
+				<a href="edukasi.html">
+				<li><i class="fas fa-book"></i>  EDUKASI</li>
+				</a>
+				<a href="beranda.html">
+				<li><i class="fa fa-home"></i>  BERANDA</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+
+
+
+	<div class="awal">
+		<div class="awal-1" >
+			<h1 data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" style="transition-delay: 0.5s; ">APA<br>ITU <br><span>COVID-19?</span></h1>
+			<h3 data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" style="transition-delay: 1.5s; "><a href="#mulai" style="color: black"><u>Yok cari tahu!</u></a></h3>
+		</div>
+		<div class="awal-1" data-aos="fade-right"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500" style="transition-delay: 1s; ">
+			<img src="awal.png" >
+		</div>
+	</div>
+	<div class="gelobal3" id="mulai"></div>
+	<div class="awal2"data-aos="fade-up" style="transition-duration: 1.5s;" >
+		<h1 >COVID-19</h1>
+		<p>COVID-19 adalah penyakit menular yang disebabkan oleh jenis <b style="color: #518ffa;">coronavirus</b> yang baru baru ini ditemukan. Virus dan penyakit yang disebabkannya ini tidak dikenal sebelum virus dan penyakit ini menjadi wabah di wuhan, Tiongkok. Tepatnya dimulai pada bulan desember 2019, yang memakan banyak korban.Dan sekarang COVID-19 ini menjadi sebuah <b style="color: #518ffa;">pandemi</b> yang melanda di banyak negara diseluruh dunia.</p>		
+
+		<small><i>Sumber : Who.int</i></small>
+	</div>
+
+	<div class="awal3">
+		<h1 data-aos="fade-right"
+     style="transition-delay: 1s; ">CARA MENCEGAH PENYEBARAN <SPAN>COVID-19</SPAN></h1>
+	</div>
+
+	<div class="awal4">
+		<div class="awal4-1">
+			<div class="awal4-1-1" data-aos="fade-right"
+     style="transition-delay: 2s; ">
+				<div class="awal4-1-1-1">
+					<p><b>MECUCI TANGAN</b><br><br>
+					Mencuci tangan dengan sabun dan air mengalir secara rutin</p>
+				</div>
+				<div class="awal4-1-1-2">
+					<img src="cuci.png">
+				</div>
+			</div>
+			<div class="awal4-1-1" data-aos="fade-right"
+     style="transition-delay: 3s; ">
+				<div class="awal4-1-1-1">
+					<p><b>MENJAGA JARAK</b><br><br>
+					Menjaga jarak aman 1,5 - 2 meter dengan orang lain</p>
+				</div>
+				<div class="awal4-1-1-2">
+					<img src="jarak.png">
+				</div>
+			</div>
+			<div class="awal4-1-1" data-aos="fade-right"
+     style="transition-delay: 4s; ">
+				<div class="awal4-1-1-1">
+					<p><b>MENGGUNAKAN MASKER</b><br><br>
+					Memakai masker dengan benar saat ke mana pun pergi</p>
+					</div>
+				<div class="awal4-1-1-2">
+					<img src="masker.png" style="transform: scale(0.5); margin-top: -70px;">
+				</div>
+			</div>
+		</div>
+		<div class="awal4-1" style="margin-top: 30px; margin-right: 100px;">
+			<div class="awal4-1-1" data-aos="fade-right"
+     style="transition-delay: 5s; ">
+				<div class="awal4-1-1-1">
+					<p><b>TIDAK KELUAR RUMAH</b><br><br>
+					Tidak keluar bila tidak ada keperluan mendesak.</p>
+				</div>
+				<div class="awal4-1-1-2">
+					<img src="rumah.png"  style="transform: scale(0.5); margin-top: -70px;">
+				</div>
+			</div>
+			<div class="awal4-1-1" data-aos="fade-right"
+     style="transition-delay: 6s; ">
+				<div class="awal4-1-1-1">
+					<p><b>INGATKAN SESAMA</b><br><br>
+					Saling mengingatkan untuk menjalankan protokol kesehatan</p>
+				</div>
+				<div class="awal4-1-1-2">
+					<img src="warning.png"  style="transform: scale(0.5); margin-top: -70px;">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="bawahs">
+	<div class="bawahs-1s" data-aos="fade-left"
+    style="transition-delay: 0.5s; ">
+    	<div class="bawahs-1-1">
+			<div class="bawahs-1-1a">
+				<p>Cari tahu pertanyaan yang sering muncul mengenai Covid-19<br>dari sumber yang terpercaya.</p>
+			</div>
+			<a href="faq.html">
+			<div class="bawahs-1-1b" ><b>Lihat FAQ</b></div>
+			</a>
+		</div>
+		<div class="bawahs-1-1">
+			<img src="faq.png">
+		</div>
+    </div>
+	<div class="bawahs-1" class="dalamnav2-3" data-aos="fade-left"
+    style="transition-delay: 1.5s; ">
+		<div class="bawahs-1-1">
+			<div class="bawahs-1-1a">
+				<p>Ketahui penyebaran data di indonesia melalui sumber yang terpercaya dan data yang real-time.</p>
+
+			</div>
+			<div class="bawahs-1-1b" >
+				<a href="beranda.html">
+				<b>Lihat data</b></div>
+				</a>
+		</div>
+		<div class="bawahs-1-1" id="gambar">
+			<img src="data.png">
+		</div>
+	</div>
+</div>
+
+
+</main>
+
+</body>
+
+<footer>
+
+	<div class="akhir2">
+		<p>© Tiu - Data Covid19 Indonesia 2020.</p>
+	</div>
+
+</footer>
+
+
+
+
+</html>

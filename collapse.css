@@ -1,0 +1,70 @@
+.collapsible {
+  background-color: #999;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-bottom: 1px solid white;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  border-radius: 5px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  border-radius: 8px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+	  background: #EEF2F7;
+	  padding-left: 30px;
+	  font-size: 17px;
+}
+.content p{
+	margin-top: 10px;
+	font-size: 18px;
+}
+.ras4 input {
+	border:none;
+	  background: #EEF2F7;
+	  border-radius:2px;
+	  padding: 15px;
+	  font-size: 17px;
+	  width: 300px;
+	  margin-bottom: 25px;
+}
+
+textarea{
+	width: 300px;
+	resize: none;
+	height: 120px;
+		border:none;
+	  background: #EEF2F7;
+	  border-radius:2px;
+	  padding: 15px;
+	  font-size: 17px;
+}
+.tombol{
+	color:  #518ffa;
+	margin-top: 10px;
+
+}
+
+.swiper-pagination{
+	background-color: yellow;
+}
+.sss input {
+	border:2px solid #518ffa;
+	border-radius: 2px;
+	padding: 10px;
+	width: 170px;
+	background-color: white;
+	cursor: pointer;
+}

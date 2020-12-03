@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="stylesheet" type="text/css" href="forum.css">
+		<link rel="stylesheet" type="text/css" href="collapse.css">
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<link href="dist/aos.css" rel="stylesheet">
+		<script src="dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="swiper-bundle.min.css">
+</head>
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+<script>
+$(document).ready(function(){
+  $("#myInputs").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTables tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<body>
+<script>
+  AOS.init();
+</script>
+	<div class="nav"  data-aos="fade-out" style="transition-delay: 1s; transition: 2s;">
+		<div class="logo"><p>Tiu.</p></div>
+		<div class="menu">
+			<ul>
+					
+				<li><i class="fas fa-code"></i> DEVELOPER</li>
+				<li><i class="fas fa-question"></i>  FAQ</li>
+				<li><i class="fas fa-book"></i>  EDUKASI</li>
+				<a href="beranda.html">
+				<li><i class="fa fa-home"></i>  BERANDA</li>
+				</a>
+			</ul>
+		</div>
+	</div>
+
+<div class="tengah">
+<div class="tengah-1">
+  <div class="tengah-1a"></div>
+  <div class="tengah-1a"></div>
+</div>
+   </div>
+
+
+
+
+
+
+</div>
+  <script src="swiper-bundle.min.js"></script>
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+  <script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+
+
+
+</html>
